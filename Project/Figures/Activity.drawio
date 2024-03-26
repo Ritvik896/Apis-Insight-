@@ -1,0 +1,187 @@
+<mxfile host="app.diagrams.net" modified="2024-01-09T11:00:14.738Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="KoxA7kmcZBFSLgySoi3n" version="22.1.17" type="device">
+  <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-38" target="Cexpim-_Q1ooWJ9UNdmL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-2" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="379.5" y="550" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-3" target="Cexpim-_Q1ooWJ9UNdmL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="10" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-5" value="User" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="50" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-10" target="Cexpim-_Q1ooWJ9UNdmL-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-10" target="Cexpim-_Q1ooWJ9UNdmL-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="140" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-5" target="Cexpim-_Q1ooWJ9UNdmL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-19" target="Cexpim-_Q1ooWJ9UNdmL-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-19" value="Bee Phenotype Classification" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="140" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-21" value="Beehive Status" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-27" target="Cexpim-_Q1ooWJ9UNdmL-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-27" value="Image Upload" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-29" target="Cexpim-_Q1ooWJ9UNdmL-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-42" value="Invalid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Cexpim-_Q1ooWJ9UNdmL-39">
+          <mxGeometry x="-0.2133" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-29" target="Cexpim-_Q1ooWJ9UNdmL-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-29" value="Verification" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="255" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-30" target="Cexpim-_Q1ooWJ9UNdmL-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-30" target="Cexpim-_Q1ooWJ9UNdmL-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+          <mxGeometry x="480" y="170" width="40" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-31" target="Cexpim-_Q1ooWJ9UNdmL-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-31" value="Live Monitoring" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="200" width="82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-32" target="Cexpim-_Q1ooWJ9UNdmL-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-32" value="Beehive Status" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.49;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-21" target="Cexpim-_Q1ooWJ9UNdmL-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-36" target="Cexpim-_Q1ooWJ9UNdmL-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-45" value="Invalid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Cexpim-_Q1ooWJ9UNdmL-44">
+          <mxGeometry x="-0.3752" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-36" value="Verification" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="255" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-38" value="Invalid Upload" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="340" width="90" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-43" target="Cexpim-_Q1ooWJ9UNdmL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-43" value="Invalid Upload" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="340" width="90" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-50" target="Cexpim-_Q1ooWJ9UNdmL-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-50" value="Flask Module&lt;br&gt;(GET/POST Request)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="337.5" width="100" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-52" target="Cexpim-_Q1ooWJ9UNdmL-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-52" value="Flask Module&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="250" width="82" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-53" target="Cexpim-_Q1ooWJ9UNdmL-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-53" value="COM 9 request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349.5" y="290" width="90" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-54" target="Cexpim-_Q1ooWJ9UNdmL-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-54" value="Arduino DHT 11 sensor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="335" width="119" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-55" target="Cexpim-_Q1ooWJ9UNdmL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-55" value="Temperature And Humidity(Live)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-61" target="Cexpim-_Q1ooWJ9UNdmL-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-61" value="Flask Module&lt;br&gt;(GET/POST Request)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="335" width="100" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.624;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-36" target="Cexpim-_Q1ooWJ9UNdmL-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-66" value="DL Module" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-68" target="Cexpim-_Q1ooWJ9UNdmL-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-68" value="DL Module" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-71" value="Beehive Staus" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="450" width="100" height="104" as="geometry">
+            <mxRectangle x="490" y="450" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-72" value="+ Hive robbery" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Cexpim-_Q1ooWJ9UNdmL-71">
+          <mxGeometry y="26" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-73" value="+ Animal Attack" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Cexpim-_Q1ooWJ9UNdmL-71">
+          <mxGeometry y="52" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-74" value="Other Factors" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Cexpim-_Q1ooWJ9UNdmL-71">
+          <mxGeometry y="78" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-73" target="Cexpim-_Q1ooWJ9UNdmL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-77" value="Bee Phenotype" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="450" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-78" value="Subspecies" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Cexpim-_Q1ooWJ9UNdmL-77">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-79" value="Health , pollen_type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Cexpim-_Q1ooWJ9UNdmL-77">
+          <mxGeometry y="60" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Cexpim-_Q1ooWJ9UNdmL-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cexpim-_Q1ooWJ9UNdmL-78" target="Cexpim-_Q1ooWJ9UNdmL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

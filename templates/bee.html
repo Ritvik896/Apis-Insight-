@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bee Prediction - Bee Health</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+    <header>
+        <h1 class="button"><a href="/" class="button">Apis Insight</a></h1>
+    </header>
+
+    <nav>
+        <ul class="button-container">
+            <li><a href="/" class="button">Home</a></li>
+            <li><a href="/predict/bee" class="button">Bee</a></li>
+            <li><a href="/predict/beehive" class="button">Beehive</a></li>
+            <!-- Link to cv_monitor.html -->
+            <li><a href="/cv_monitor" class="button">CV Monitor</a></li>
+        </ul>
+    </nav>
+
+    <img class="bee-background" src="" alt="Bee Image">
+
+    <main>
+        <h2>Predict Bee Health and Subspecies</h2>
+        <form method="POST" action="/predict/bee" enctype="multipart/form-data">
+            <input type="file" name="image" accept="image/*" />
+            <br />
+            <input type="submit" value="Predict Bee" class="button" />
+        </form>
+
+        {% if error %}
+        <p class="error">{{ error }}</p>
+        {% endif %}
+        {% if prediction %}
+        <h3>Bee Prediction:</h3>
+        <p>Health: {{ prediction.health }}</p>
+        <p>Subspecies: {{ prediction.subspecies }}</p>
+        <center>
+            <div class="container">
+              <h3>About the Bee</h3>
+              {%if prediction.subspecies == "The rock bee(Apis Dorsata)" %}
+              <p><strong>Pollen type:</strong> Coconut palms<br>Commonly known as the rock bee or giant honey bee, is a species of honey bee found in South and Southeast Asia. These bees typically measure about 17–20 mm (0.7–0.8 in) in length, and their nests are primarily constructed in exposed locations far above the ground.
+                 These locations include tree limbs, beneath cliff overhangs, and under buildings. These social bees are renowned for their aggressive defense strategies and can exhibit fierce behavior when disturbed.
+                 While they are not typically domesticated, indigenous communities have traditionally utilized this species as a source of honey and beeswax through a practice known as honey hunting
+                </p>
+              {%endif%} {%if prediction.subspecies == "The Indian hive bee(Apis cerana indica)" %}
+              <p><strong>Pollen type:</strong> Apple, Citrus<br>Apis cerana indica, or the Indian honey bee, is a subspecies of the Asiatic honey bee native to South and Southeast Asia, 
+                including India, known for its dark brown or black body with pale abdominal stripes. Building nests in various locations such as tree hollows, 
+                rock crevices, and human-made structures, these bees are generalist foragers, collecting nectar and pollen from a diverse range of flowering plants, 
+                thereby contributing significantly to pollination and ecosystem health. While they produce honey stored in their combs, their defensive behavior 
+                is notable when disturbed, though generally less aggressive than some other honey bee species. </p>
+              {%endif%} {%if prediction.subspecies == "The little bee(Apis florea)" %}
+              <p><strong>Pollen type:</strong> Sunflower<br>The dwarf bee (or dwarf bee), Apis florea, is one of two species of small wild bees found in South and Southeast Asia. 
+                Its distribution is much wider than that of its sister species Apis andreniformis. 
+                First identified in the late 18th century, Apis florea is unique in its morphology, feeding behavior and defense mechanisms, such as producing noise from its tubes</p>
+              {%endif%} {%if prediction.subspecies == "The European or Italian bee(Apis mellifera)" %}
+              <p><strong>Pollen type:</strong> Cherry<br>Apis mellifera or European honey bee (Apis mellifera) is the most common of the 7 to 12 bee species worldwide.
+                 The genus name Apis means "fruit" in Latin and mellifera means "honey". or "honey maker", referring to the production of honey.
+                   Apis mellifera plays an important role in ecosystems, agriculture, and food systems worldwide due to its role in pollination.
+                 It is a fascinating and important species that attracts the attention of both scientific and environmental communities.
+                The life cycle of Italian honey bee includes all metamorphoses, including egg, larva, pupa and adult stages.</p>
+              {%endif%} {%if prediction.subspecies == "Dammer Bee(Melipona irridipennis)" %}
+              <p><strong>Pollen type:</strong> Mango<br>Indian stingless bee or queen dammer bee, Tetragonula iridipennis, is a species of honey bee belonging to the family Apidae, subfamily Apinae.
+                 It was discovered by explorer Frederick Smith in 1854 who found the species the island of Sri Lanka.
+                 Many older records have mistakenly placed this species in Melipona, a unique New World species, and until recently it was placed in Trigona, therefore still often mistakenly referred to as Trigona iridipennis.
+                  For centuries, colonies. </p>
+              {%endif%} {%if prediction.subspecies == 'VSH Italian Honey Bee' %}
+              <p><strong>Pollen type:</strong> Guava<br>The Varroa Sensitive Hygiene (VSH) Italian honey bee is a selectively bred subspecies of the European honey bee (Apis mellifera ligustica) known for its resistance to the devastating Varroa destructor mite. T
+                hrough targeted breeding programs, these bees exhibit high levels of hygienic behavior, actively removing mite-infested brood from their hives, thus reducing 
+                mite populations and associated viral transmission. This trait makes them highly valuable to beekeepers seeking natural methods of mite control, contributing 
+                to colony health and survival. VSH Italian honey bees retain many desirable traits of the Italian honey bee, such as gentle temperament, prolific honey production, 
+                and adaptability to various climates, making them an attractive choice for beekeepers worldwide in the ongoing battle against Varroa mites and associated colony 
+                losses.</p>
+              {%endif%}
+            </div>
+            <center/>
+        {% endif %}
+    </main>
+
+
+
+</body>
+</html>

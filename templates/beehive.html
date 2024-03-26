@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bee Prediction - Beehive Health</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+</head>
+<body>
+
+    <header>
+        <h1 class="button"><a href="/" class="button">Apis Insight</a></h1>
+    </header>
+
+    <nav>
+        <ul class="button-container">
+            <li><a href="/" class="button">Home</a></li>
+            <li><a href="/predict/bee" class="button">Bee</a></li>
+            <li><a href="/predict/beehive" class="button">Beehive</a></li>
+            <!-- Link to cv_monitor.html -->
+            <li><a href="/cv_monitor" class="button">CV Monitor</a></li>
+        </ul>
+    </nav>
+
+    <img class="beehive-background" src="" alt="Beehive Image">
+
+    <main>
+        <h2>Predict Beehive Health</h2>
+        <form method="POST" action="/predict/beehive" enctype="multipart/form-data">
+            <input type="file" name="image" accept="image/*" />
+            <br />
+            <input type="submit" value="Predict Beehive" class="button" />
+        </form>
+
+        {% if error %}
+        <p class="error">{{ error }}</p>
+        {% endif %}
+        {% if prediction %}
+        <h3>Beehive Prediction:</h3>
+        <p>Health: {{ prediction.health }}</p>
+        {% endif %}
+
+        <!-- Live Data Display -->
+        <div class="live-data-container">
+            <h3>Live Data:</h3>
+            <p class="live-data" id="temperature">Temperature: N/A °C</p>
+            <p class="live-data" id="humidity">Humidity: N/A%</p>
+        </div>
+    </main>
+
+
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+
+</body>
+</html>

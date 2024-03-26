@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bee Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <style>
+        .bee-background {
+            background-image: url("https://us.123rf.com/450wm/loft39studio/loft39studio2308/loft39studio230810486/209963023-generative-ai-a-lot-of-chamomile-in-summer-meadow-in-nature-in-sunshine-at-sunset-and-a-flying.jpg?ver=6");
+            background-size: cover; /* Adjust as needed */
+            background-position: top; /* Show only the top portion */
+            width: 100%; /* Adjust as needed */
+            height: 100vh; /* Adjust as needed */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="button"><a href="/" class="button">Apis Insight</a></h1>
+    </header>
+
+    <nav>
+        <ul class="button-container">
+            <li><a href="/" class="button">Home</a></li>
+            <li><a href="/predict/bee" class="button">Bee</a></li>
+            <li><a href="/predict/beehive" class="button">Beehive</a></li>
+            <!-- Link to cv_monitor.html -->
+            <li><a href="/cv_monitor" class="button">CV Monitor</a></li>
+        </ul>
+    </nav>
+
+    <img class="bee-background" src="" alt="Bee Image">
+
+
+</body>
+</html>
+

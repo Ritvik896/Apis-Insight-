@@ -1,0 +1,108 @@
+file,date,time,location,zip code,subspecies,health
+01_001.png,1/21/2024,14:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Healthy
+01_002.png,1/22/2024,15:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Healthy
+01_003.png,1/23/2024,16:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Healthy
+01_004.png,1/24/2024,17:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Healthy
+01_005.png,1/25/2024,18:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Healthy
+01_006.png,1/26/2024,19:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Healthy
+01_007.png,1/27/2024,20:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Healthy
+01_008.png,1/28/2024,21:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Healthy
+01_009.png,1/29/2024,22:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Healthy
+01_010.png,1/30/2024,23:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Healthy
+01_011.png,1/31/2024,0:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Healthy
+01_012.png,2/1/2024,1:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Healthy
+01_013.png,2/2/2024,2:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Healthy
+01_014.png,2/3/2024,3:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Healthy
+01_015.png,2/4/2024,4:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Healthy
+01_016.png,2/5/2024,5:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Healthy
+01_017.png,2/6/2024,6:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Healthy
+01_018.png,2/7/2024,7:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Healthy
+01_019.png,2/8/2024,8:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Unhealthy
+01_020.png,2/9/2024,9:00,"Kalakadu, Tamil Nadu",627007,Dammer beehive,Unhealthy
+02_001.png,1/13/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_002.png,1/14/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_003.png,1/15/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_004.png,1/16/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_005.png,1/17/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_006.png,1/18/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_007.png,1/19/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_008.png,1/20/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_009.png,1/21/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_010.png,1/22/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_011.png,1/23/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_012.png,1/24/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_013.png,1/25/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_014.png,1/26/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_015.png,1/27/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_016.png,1/28/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_017.png,1/29/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_018.png,1/30/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_019.png,1/31/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_020.png,2/1/2024,15:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_021.png,2/1/2024,18:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_022.png,2/1/2024,18:00,"Nedumangad, Kerala",695541,Italian honey beehive,Healthy
+02_023.png,2/1/2024,18:00,"Nedumangad, Kerala",695541,Italian honey beehive,Unhealthy
+02_024.png,2/1/2024,18:00,"Nedumangad, Kerala",695541,Italian honey beehive,Unhealthy
+03_001.png,1/9/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_002.png,1/10/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_003.png,1/11/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_004.png,1/12/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_005.png,1/13/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_006.png,1/14/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_007.png,1/15/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_008.png,1/16/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_009.png,1/17/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_010.png,1/18/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_011.png,1/19/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_012.png,1/20/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_013.png,1/21/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_014.png,1/22/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_015.png,1/23/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_016.png,1/24/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_017.png,1/25/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_018.png,1/26/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_019.png,1/27/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_020.png,1/28/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_021.png,1/29/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_022.png,1/29/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_023.png,1/29/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_025.png,1/29/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_026.png,1/29/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_027.png,1/29/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_028.png,1/29/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_029.png,1/29/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_030.png,1/29/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Healthy
+03_031.png,1/29/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Unhealthy
+03_032.png,1/29/2024,8:00,"Almora,Uttrakhand",263601,VSH Italian honey beehive,Unhealthy
+04_001.png,1/5/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_002.png,1/6/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_003.png,1/7/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_004.png,1/8/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_005.png,1/9/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_006.png,1/10/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_007.png,1/11/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_008.png,1/12/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_009.png,1/13/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_010.png,1/14/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_011.png,1/15/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_012.png,1/16/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_013.png,1/17/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_014.png,1/18/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_015.png,1/19/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_016.png,1/20/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_017.png,1/21/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_018.png,1/22/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_019.png,1/23/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_020.png,1/24/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_021.png,1/24/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_022.png,1/24/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_023.png,1/24/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_024.png,1/24/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_025.png,1/24/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_026.png,1/24/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_027.png,1/24/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_028.png,1/24/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_029.png,1/24/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_030.png,1/24/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Healthy
+04_031.png,1/24/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Unhealthy
+04_032.png,1/24/2024,10:00,"Bela Gerya, West Bengal",721126,Indian hive beehive,Unhealthy

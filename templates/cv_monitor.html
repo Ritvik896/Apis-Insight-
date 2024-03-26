@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bee Prediction - Bee Health</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/styles.css') }}"
+    />
+    <style>
+      /* CSS to adjust the size of the camera box */
+      .camera-box {
+        width: 50%; /* Set the width of the camera box to 50% of its container */
+        margin: 0 auto; /* Center the camera box horizontally */
+        padding: 20px; /* Add padding to the camera box for spacing */
+        border: 1px solid #ccc; /* Add a border around the camera box for visibility */
+        box-sizing: border-box; /* Include padding and border in the box's total width and height */
+      }
+
+      /* CSS for scroll-down button */
+      .scroll-down-btn {
+        position: fixed; /* Position the button fixed to the viewport */
+        bottom: 20px; /* Place the button 20px from the bottom */
+        right: 20px; /* Place the button 20px from the right */
+        padding: 10px 20px; /* Add padding to the button */
+        background-color: #007bff; /* Set button background color */
+        color: #fff; /* Set button text color */
+        border: none; /* Remove button border */
+        border-radius: 5px; /* Add border radius to button */
+        cursor: pointer; /* Change cursor to pointer on hover */
+      }
+      .container {
+        padding: 10px;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="button"><a href="/" class="button">Apis Insight</a></h1>
+    </header>
+
+    <nav>
+      <ul class="button-container">
+        <li><a href="/" class="button">Home</a></li>
+        <li><a href="/predict/bee" class="button">Bee</a></li>
+        <li><a href="/predict/beehive" class="button">Beehive</a></li>
+        <!-- Link to cv_monitor.html -->
+        <li><a href="/cv_monitor" class="button">CV Monitor</a></li>
+      </ul>
+    </nav>
+
+    <img class="bee-background" src="" alt="Bee Image" />
+
+    <main class="container">
+      <h2>Monitor Live Bee Movement</h2>
+      <div class="camera-box">
+        <img
+          id="video_feed"
+          src="{{ url_for('video_feed') }}"
+          alt="Video Feed"
+        />
+      </div>
+
+      {% if error %}
+      <p class="error">{{ error }}</p>
+      {% endif %} {% if prediction %}
+      <h3>Bee Prediction:</h3>
+      <p>Health: {{ prediction.health }}</p>
+      <p>Subspecies: {{ prediction.subspecies }}</p>
+      {% endif %}
+    </main>
+
+    <!-- Scroll-down button -->
+
+    <!-- JavaScript for scrolling down when the button is clicked -->
+    <script>
+      function scrollDown() {
+        window.scrollTo({
+          top: document.body.scrollHeight,
+          behavior: "smooth",
+        });
+      }
+    </script>
+  </body>
+</html>
